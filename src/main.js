@@ -1,4 +1,4 @@
 
-import App from './jsx/index.jsx';
+import App from './app/index.js';
 
 App.run ();

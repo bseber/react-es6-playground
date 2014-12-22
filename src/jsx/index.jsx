@@ -5,7 +5,7 @@ import Greeter from './greeter.jsx';
 
 export default {
 
-    run () {
+    display () {
         React.render (
             <Greeter />,
             document.getElementById ('content')
