@@ -21,6 +21,19 @@ module.exports = {
         src : src + '/main.js',
         dest: dest,
         '6to5ify': pkg['6to5ify']
+    },
+
+    watch: {
+        tasks: {
+            browserify: [
+                src + '/jsx/**/*.jsx',
+                src + '/app/*.js',
+                src + '/main.js'
+            ]
+        },
+        livereload: [
+            dest + '/**'
+        ]
     }
 
 };
